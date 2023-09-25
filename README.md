@@ -35,10 +35,15 @@ suatu sistem yang menjembatani antara pengguna dan hardware.
 ### Jenis Jenis OS
 * Batch OS
 * Distributed OS
+    * NAS, SAN, Thin Client, Linux Cluster
 * Multitasking OS
+    * Windows, Mac OS, dll
 * Network OS
+    * dikhususkan untuk sebagai client : seperti mesin daftar hadir.
 * Real OS
+    * gamebot
 * Mobile OS
+    * Android, IOS
 
 setiap OS mungkin masuk kedalam 2 atau lebih kategori lain.
 
