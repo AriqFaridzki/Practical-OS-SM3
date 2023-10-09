@@ -15,6 +15,7 @@ setiap filesystem itu mempunyai keunikan sendiri dalam setiap formatnya (NTFS, e
     * Soft Link and Hard link support
     * 256TB max filesize ( 8tb on win 10 1709)
     * 256TB max volume size ( 8tb on win 10 1709 )
+    
 3. ReFS (Resilient File System) sama seperti NTFS tapi lebih bagus journalingnya ( kayak git tapi buat filesystem )
     * Feature
     * 16 EB Max Filesize
@@ -24,18 +25,26 @@ setiap filesystem itu mempunyai keunikan sendiri dalam setiap formatnya (NTFS, e
 
 
 ## Linux Filesystem
-1. Ext ( Extended File Format )
-    * ext2 
-    * ext3
-    * ext4
-
-        * Feature
-        * For Linux
+1. Ext ( Extended File Format ) 
+    * ext
+        * 2GB max File and Volume size
         * 255 Character limit
-        * 
-        * 
-        * 
-2. dll
+    * ext2 
+        * inode Concept ( index - node ) 
+        * 2TB Max file Size
+        * 32TB max Volume Size
+    * ext3
+        * Journaling support
+        * Directory Index
+    * ext4
+        * Journal double checking (journal checksum)
+        * infinity Subdirectory
+        * presistent pre-allocation
+        * faster filechecking
+        * win & mac support (3rd party like WSL)
+        * 16 TB max file size
+        * 1 EB max Volume size 
+2. other
 
 ### funfact
 > Linking in linux : soft link, hardlink [tutorial](https://opensource.com/article/17/6/linking-linux-filesystem)
